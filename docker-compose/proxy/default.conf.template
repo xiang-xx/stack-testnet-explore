@@ -33,7 +33,7 @@ server {
     }
 }
 server {
-    listen       8080;
+    listen       80;
     server_name  api-testnet-stats.satoshinetwork.xyz;
     proxy_http_version 1.1;
     proxy_hide_header Access-Control-Allow-Origin;
